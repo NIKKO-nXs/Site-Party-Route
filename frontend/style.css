@@ -9,3 +9,21 @@ body {
   margin: 20px auto;
   border: 2px solid #333;
 }
+.leaflet-routing-container {
+  background: rgba(255, 255, 255, 0.8) !important; /* levemente transparente */
+  color: #000 !important; /* texto preto */
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  padding: 8px;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 13px;
+}
+
+.leaflet-routing-container h2,
+.leaflet-routing-alt h2 {
+  color: #111 !important;
+}
+
+.leaflet-routing-alt {
+  background: rgba(255, 255, 255, 0.9) !important;
+}
